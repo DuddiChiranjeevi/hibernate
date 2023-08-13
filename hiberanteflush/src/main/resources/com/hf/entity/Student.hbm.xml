@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping package="com.hf.entity">
+    <class name="Student" table="student">
+    <id name="studentId" column="student_id"/>
+    <property name="studentName" column="student_nm"/>
+    <property name="fatherName" column="father_nm"/>
+    <property name="age" />
+    <property name="gender"/>
+    <property name="mobileNo" column="mobile_no"/>
+    <property name="emailId" column="email_id"/>
+    <property name="course"/>
+    </class>
+    </hibernate-mapping>

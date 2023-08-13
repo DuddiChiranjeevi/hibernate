@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=tableperclasshierarchy/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.tpch.test{TPCHTest.java[TPCHTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=probootstraphib/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.pbh.test{AccountTest.java[AccountTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=tableperconcreteclass/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.tpcc.test{TPCCTest.java[TPCCTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=tablepersubclasshierarchy/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.tpsch.test{TPSCHTest.java[TPSCHTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=tpscAnnotation/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.tpsca.test{TPSCATest.java[TPSCATest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=jpatableperconcreteclasshierarchy/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.jtpch.test{JTPCCHTest.java[JTPCCHTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=jpainheritancemapping/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.jhm.test{JIMTest.java[JIMTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=assiciationmapping/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.amxa.test{AMXATest.java[AMXATest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=ontooneasonetomany/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.otoasotm.test{OneToOneAsOneToManyTest.java[OneToOneAsOneToManyTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=onetomanylist/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.otml.test{OTMLTest.java[OTMLTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="474"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="391"/>
+			<item key="DIALOG_Y_ORIGIN" value="39"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="expressionHistory">
+	</section>
+	<section name="org.eclipse.jdt.internal.debug.ui.ExpressionInformationControlCreator$ExpressionInformationControl">
+		<item key="WIDTH" value="664"/>
+		<item key="HEIGHT" value="319"/>
+		<item key="SashWeightTree" value="500"/>
+		<item key="SashWeightDetails" value="500"/>
+	</section>
+</section>

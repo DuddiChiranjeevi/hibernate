@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: system
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 7171
+  max-http-header-size: 2kb
+
+  tomcat:
+    max-swallow-size: 1kb
+    max-http-form-post-size: 1kb   

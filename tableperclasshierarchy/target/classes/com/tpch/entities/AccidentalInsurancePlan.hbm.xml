@@ -1,0 +1,10 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.tpch.entities">
+<subclass name="AccidentalInsurancePlan" extends ="InsurancePlan" discriminator-value="AccidentalInsurancePlan">
+<property name="disabilityCoveragePercentage" column="disability_coverage_percentage"></property>
+
+<property name="internationalCoverage" column="international_coverage"></property>
+</subclass>
+</hibernate-mapping>

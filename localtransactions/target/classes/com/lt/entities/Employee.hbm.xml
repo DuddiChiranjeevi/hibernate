@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.lt.entities">
+<class name="Employee" table="employee">
+<id name="empId" column="emp_id"></id>
+<property name="empName" column="emp_nm"></property>
+<property name="emailId" column="email_id"></property>
+<property name="mobileNo" column="mobile_no"></property>
+<property name="salary" ></property>
+</class>
+</hibernate-mapping>

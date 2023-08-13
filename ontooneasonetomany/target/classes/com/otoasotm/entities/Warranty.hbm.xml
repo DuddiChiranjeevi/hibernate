@@ -1,0 +1,17 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.otoasotm.entities">
+<class name="Warranty" table="warranty_otm">
+<id name="warrantyNo" column="warrantyno">
+<generator class="increment"/>
+</id>
+<property name="warrantyIssuedDate" column="warranty_issued_dt"/>
+<property name="noDays" column="no_ways"/>
+<property name="mobileNo" column="mobileNo"/>
+<many-to-one name="product">
+<column name="product_id" unique="true"></column>
+</many-to-one>
+</class>
+
+</hibernate-mapping>

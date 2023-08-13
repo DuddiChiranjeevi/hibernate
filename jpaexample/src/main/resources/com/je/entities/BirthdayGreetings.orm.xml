@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence/orm"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm   
+        http://java.sun.com/xml/ns/persistence/orm_1_0.xsd ">
+	<package>com.je.entities</package>
+	<entity class="BirthdayGreetings">
+		<table name="birthday_greetings" />
+		<attributes>
+			<id name="personId">
+				<column name="person_id" />
+			</id>
+			<basic name="personName">
+				<column name="person_nm" />
+			</basic>
+			<basic name="fatherName">
+				<column name="father_nm" />
+			</basic>
+			<basic name="mobileNo">
+				<column name="mobile_no" />
+			</basic>
+			<basic name="dob" />
+			<basic name="wishes"/>
+		</attributes>
+	</entity>
+</entity-mappings>

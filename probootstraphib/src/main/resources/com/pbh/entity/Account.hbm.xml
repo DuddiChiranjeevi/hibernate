@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+<hibernate-mapping>
+<class name="com.pbh.entity.Account"  table="account">
+<id name="accountNo" column="account_no"/>
+<property name="accountHolderName" column="account_holder_nm"/>
+<property name="accountType" column="account_type"/>
+<property name="branchName" column="branch_name"/>
+<property name="ifscCode" column="ifsc_code"/>
+</class>
+</hibernate-mapping>

@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.otoasotm.entities">
+<class name="Product" table="product_otm">
+<id name="productId" column="product_id">
+<generator class="increment"></generator>
+</id>
+<property name="productName" column="product_nm"/>
+<property name="price" />
+<property name="manufacturer" />
+<property name="productCode" column="product_code"/>
+</class>
+
+</hibernate-mapping>

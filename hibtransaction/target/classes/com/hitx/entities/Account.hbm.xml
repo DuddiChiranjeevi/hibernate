@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.hitx.entities">
+<class name="Account" table="account_info">
+<id name="accountId" column="account_id"></id>
+<property name="accountholderName" column="account_holder_nm"></property>
+<property name="emailId" column="email_id"></property>
+<property name="mobileNo" column="mobile_no"></property>
+<property name="dob" ></property>
+</class>
+
+</hibernate-mapping>

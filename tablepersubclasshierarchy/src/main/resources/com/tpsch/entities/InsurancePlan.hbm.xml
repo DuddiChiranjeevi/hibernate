@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.tpsch.entities">
+<class name="InsurancePlan" table="insurance_plan" >
+<id name="planNo" column="plan_no">
+<generator class="identity"></generator>
+</id>
+<property name="planName" column="plan_nm"></property>
+<property name="tenure"></property>
+<property name="premiumAmount" column="premium_amount"></property>
+<property name="insuredAmount" column="insured_amount"></property>
+<property name="status"></property>
+</class>
+</hibernate-mapping>

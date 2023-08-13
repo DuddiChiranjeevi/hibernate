@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping >
+<class name="com.chig.entities.Customer" table="customer">
+<composite-id name="id">
+<key-property name="firstName" column="customer_nm"/>
+<key-property name="lastName" column="last_nm"/>
+</composite-id>
+<property name="departmentName" column="department_nm"/>
+<property name="mobileNo" column="mobile_no"/>
+<property name="emailId" column="email_id"/>
+</class>
+
+</hibernate-mapping>

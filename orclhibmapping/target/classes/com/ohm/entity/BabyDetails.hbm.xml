@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping package="com.ohm.entity">
+    <class name="BabyDetails" table="baby_details">
+    <id name="babyId" column="baby_id">
+<generator class="native"></generator>
+    </id>
+    <property name="babyName" column="baby_nm"/>
+     <property name="fatherName" column="father_nm"/>
+      <property name="motherName" column="mother_nm"/>
+       <property name="dob" />
+        <property name="gender"/>
+    </class>
+    </hibernate-mapping>

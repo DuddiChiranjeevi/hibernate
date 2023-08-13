@@ -1,0 +1,19 @@
+	<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.amxa.entities">
+<class name="Project" table="project">
+<id name="projectId" column="project_id">
+<generator class="increment"></generator>
+</id>
+<property name="projectTittle" column="project_tittle"></property>
+<property name="clientName" column="client_nm"></property>
+<property name="domain" ></property>
+<property name="duration"/>
+<property name="teamSize" column="team_size"/>
+<set name="associates">
+<key column="project_id"></key>
+<one-to-many class="Associates"/>
+</set>
+</class>
+</hibernate-mapping>
